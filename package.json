@@ -1,0 +1,14 @@
+{
+  "name": "project_job_portal",
+  "version": "1.0.0",
+  "description": "Automation --> koi nayi job create ya post hui h toh within 1-2 min jobs update ho jaegi......\r job niche dekhega....i.e sde ya de ya python developer etc. kiski post h and then related users ko email send krega to notify them.....automation jb bhi hoga tb hi mail aaegi....",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
