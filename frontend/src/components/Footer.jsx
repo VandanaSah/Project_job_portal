@@ -28,11 +28,11 @@ const Footer = () => {
         <div >
           <h4>Quick Links</h4>
           <ul>
-            <li to={"/"}>
-              <Link>Home</Link>
+            <li>
+              <Link to={"/"}>Home</Link>
             </li>
-            <li to={"/jobs"}>
-              <Link>Jobs</Link>
+            <li >
+              <Link to={"/jobs"}>Jobs</Link>
             </li>
             {isAuthenticated && (
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
           <h4>Follow Us</h4>
           <ul>
             <li>
-              <Link to={"/"}>
+              <Link to={"https://x.com/"}>
                 <span>
                   <FaSquareXTwitter />
                 </span>
@@ -53,7 +53,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/"}>
+              <Link to={"https://www.instagram.com/"}>
                 <span>
                   <FaSquareInstagram />
                 </span>
@@ -69,7 +69,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/"}>
+              <Link to={"https://www.linkedin.com/in/vandana-sah-326902278/"}>
                 <span>
                   <FaLinkedin />
                 </span>
