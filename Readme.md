@@ -1,6 +1,3 @@
-Automation --> koi nayi job create ya post hui h toh within 1-2 min jobs update ho jaegi......
-job niche dekhega....i.e sde ya de ya python developer etc. kiski post h and then related users ko email send krega to notify them.....automation jb bhi hoga tb hi mail aaegi....
-
 4. JWT_SECRET_KEY =
 hold your JSON Web Token (JWT) secret key.  string used to sign and verify the tokens for authentication. 
 
@@ -33,5 +30,3 @@ The port used to connect to your SMTP server. Common ports are 587 (for TLS) or 
 
 The cors (Cross-Origin Resource Sharing) middleware is used to handle requests from different origins (domains) in your Express.js application.....allowing your server to accept requests from specified domains.
 
- middlewares are functions that have access to the request (req), response (res), and the next function in the application’s request-response cycle
-Each middleware can either terminate the request-response cycle or pass control to the next middleware by invoking the next() function.
